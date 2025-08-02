@@ -40,7 +40,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .left-content {
@@ -48,19 +47,23 @@ a {
     flex-direction: column;
     gap: 12px;
     color: white;
-    
     width: 325px;
 }
 
 .left-content-title {
     font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -12px;
 }
 
 .button-1 {
     background-color: #3882F6;
     color: white;
-    padding: 3px 18px;
+    padding: 3px 0px;
     text-align: center;
+    border-radius: 6px;
+    width: 96px;
+    font-weight: bold;
 }
 
 .section-2 {
