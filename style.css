@@ -8,10 +8,6 @@
     font-family: Roboto, sans-serif;
 }
 
-img {
-    border: none;
-}
-
 .header {
     background-color: #1F2937;
     color: white;
@@ -75,6 +71,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 64px 128px;
+    gap: 16px;
 }
 
 .section-2-title {
@@ -84,7 +81,9 @@ a {
 
 .boxes {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 32px; */
 }
 
 .box-and-text {
@@ -94,8 +93,9 @@ a {
 }
 
 .box {
+    border-radius: 6px;
     box-shadow: 5px 5px 5px grey;
-}
+    }
 
 .text-under-box {
     width: 128px;
