@@ -8,6 +8,10 @@
     font-family: Roboto, sans-serif;
 }
 
+img {
+    border: none;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -90,7 +94,7 @@ a {
 }
 
 .box {
-
+    box-shadow: 5px 5px 5px grey;
 }
 
 .text-under-box {
@@ -98,7 +102,7 @@ a {
     color: grey;
     font-size: 12px;
     text-align: center;
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 .section-3 {
